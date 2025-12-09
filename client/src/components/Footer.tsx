@@ -1,4 +1,4 @@
-import gdgLogo from "@assets/generated_images/GDG logo.png";
+import { SiGoogle } from "react-icons/si";
 
 const footerLinks = [
   { label: "About", href: "#about" },
@@ -22,7 +22,7 @@ export default function Footer() {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex flex-col md:flex-row items-center justify-between gap-8">
           <div className="flex items-center gap-2">
-            <img src={gdgLogo} alt="GDG Logo" className="w-6 h-6" />
+            <SiGoogle className="w-6 h-6" />
             <span className="font-bold text-lg">TechSprint 2025</span>
           </div>
 

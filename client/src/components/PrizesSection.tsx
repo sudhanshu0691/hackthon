@@ -1,7 +1,7 @@
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
 import { Badge } from "@/components/ui/badge";
 import { Trophy, Award, Medal, Gift, Sparkles, Cloud, Laptop, GraduationCap } from "lucide-react";
-import gdgLogo from "@assets/generated_images/GDG logo.png";
+import { SiGoogle } from "react-icons/si";
 
 const winnerPrizes = [
   {
@@ -77,7 +77,7 @@ export default function PrizesSection() {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="text-center mb-12">
           <div className="inline-flex items-center gap-2 mb-4">
-            <img src={gdgLogo} alt="GDG Logo" className="w-8 h-8" />
+            <SiGoogle className="w-8 h-8" />
             <Sparkles className="w-6 h-6 text-google-yellow" />
           </div>
           <h2 className="text-3xl md:text-4xl font-bold mb-4">
